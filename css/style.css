@@ -15,6 +15,7 @@
     box-sizing: border-box;
     -webkit-font-smotthing: antialiased;
 }
+body{width:100%;}
 
 header {
     background: var(--dark);
@@ -118,7 +119,7 @@ section {
 }
 
 section.about .about-me-image {
-    height: 450px;
+    height: 550px;
 }
 
 section.about h1 {
@@ -152,10 +153,10 @@ section.about .social a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    margin-right: 0.6rem;
+    margin-right: 1rem;
     transition: all .3s ease;
     background-color: #f2f2f2;
 }
@@ -193,6 +194,7 @@ section.services .card-wrapper{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap:2rem;
     grid-row-gap:6rem;
+    
 }
 
 section.services .card-wrapper .card{
@@ -202,6 +204,7 @@ section.services .card-wrapper .card{
     padding-top:5rem;
     text-align: center;
     transition: all .3s ease;
+    width:350px;
 }
 section.services .card-wrapper .card img{
     position: absolute;
@@ -220,6 +223,7 @@ section.services .card-wrapper .card h2{
 section.services .card-wrapper .card p{
     color:var(--ternary);
     line-height:1.6;
+    
 }
 
 section.services .card-wrapper .card:hover{
@@ -487,6 +491,7 @@ footer .copyright{
 
 .site-main-wrapper{
     position: relative;
+    width:100%;
 }
 .hamberger{
     position: absolute;
